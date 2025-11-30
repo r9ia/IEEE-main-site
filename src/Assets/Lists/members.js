@@ -150,6 +150,18 @@ const memberData = {
                         "emailLink": "punpun.payapvattanavong@mail.utoronto.ca",
                         "LinkedInLink": "http://linkedin.com/in/punnawit"
                     },
+                    {
+                        "fullName": "Andrew Cheung",
+                        "position": "Associate",
+                        "emailLink": "abc.cheung@mail.utoronto.ca",
+                        "LinkedInLink": "https://www.linkedin.com/in/andrewbradleyc/"
+                    },
+                    {
+                        "fullName": "Ryan Sun",
+                        "position": "Associate",
+                        "emailLink": "ryanyz.sun@mail.utoronto.ca",
+                        "LinkedInLink": "https://www.linkedin.com/in/ryanyizhesun/"
+                    },
                 ],
                 firstRowSize: 3
             },
@@ -202,6 +214,18 @@ const memberData = {
                         "position": "Associate",
                         "emailLink": "dilara.esenceli@mail.utoronto.ca",
                         "LinkedInLink": "https://www.linkedin.com/in/dilara-esenceli/"
+                    },
+                    {
+                        "fullName": "Claire He",
+                        "position": "Associate",
+                        "emailLink": "claire.he@mail.utoronto.ca",
+                        "LinkedInLink": "http://www.linkedin.com/in/claire-he1/"
+                    },
+                    {
+                        "fullName": "Michelle Zhang",
+                        "position": "Associate",
+                        "emailLink": "michellee.zhang@mail.utoronto.ca",
+                        "LinkedInLink": ""
                     },
                 ],
                 firstRowSize: 3
@@ -468,6 +492,22 @@ const memberData = {
                     position: "Multimedia Associate",
                     emailLink: "aa.agarwal@mail.utoronto.ca",
                 },
+                {
+                    fullName: "Yifei Chen",
+                    position: "Multimedia Associate",
+                    emailLink: "cfy.chen@mail.utoronto.ca",
+                },
+                {
+                    fullName: "Saksham Garg",
+                    position: "Multimedia Associate",
+                    emailLink: "saksham.garg@mail.utoronto.ca",
+                    LinkedInLink: "https://www.linkedin.com/in/saksham-garg-a3081a215/"
+                },
+                {
+                    fullName: "Brandon Yang",
+                    position: "Multimedia Associate",
+                    emailLink: "bcloud.yang@mail.utoronto.ca",
+                },
             ],
             firstRowSize: 2,
         },
@@ -551,6 +591,18 @@ const memberData = {
                     position: "Associate",
                     emailLink: "vedant.harlalka@mail.utoronto.ca",
                     LinkedInLink: "https://www.linkedin.com/in/vedantharlalka/"
+                },
+                {
+                    fullName: "Katherine Zhang",
+                    position: "Associate",
+                    emailLink: "kath.zhang@mail.utoronto.ca",
+                    LinkedInLink: "https://ca.linkedin.com/in/katherine-zhang-68a88b323/"
+                },
+                {
+                    fullName: "Ishraq Alam",
+                    position: "Associate",
+                    emailLink: "ishraq.alam@mail.utoronto.ca",
+                    LinkedInLink: "https://www.linkedin.com/in/ishraqalam/"
                 },
             ],
             firstRowSize: 3,
