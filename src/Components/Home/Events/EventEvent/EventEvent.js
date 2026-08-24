@@ -6,8 +6,12 @@ const EventContent = ({ name, date }) => {
     try {
         imgSrc = require("./../../../../Assets/Images/events/" + name + ".jpg");
     } catch (err) {
-        imgSrc = require("./../../../../Assets/Images/events/Workshops.jpg");
-    }
+        try {
+            imgSrc = require("./../../../../Assets/Images/events/" + name + ".png");
+        } catch (err2) {
+            imgSrc = require("./../../../../Assets/Images/events/Workshops.jpg");
+        }
+}
 
     return (
         <>
