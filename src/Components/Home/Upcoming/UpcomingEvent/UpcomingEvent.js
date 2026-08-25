@@ -2,13 +2,17 @@ import React from "react";
 import styles from "./upcomingEvent.module.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 
-const UpcomingEventContent = ({ name, date }) => {
+const UpcomingEventContent = ({ name, date, image }) => {
     let imgSrc;
     try {
-        imgSrc = require("./../../../../Assets/Images/events/" + name + ".jpg");
+        imgSrc = require("./../../../../Assets/Images/events/" + image + ".jpg");
     } catch (err) {
-        imgSrc = require("./../../../../Assets/Images/events/Workshops.jpg");
+        try {
+            imgSrc = require("./../../../../Assets/Images/events/" + image + ".png");
+        } catch (err2) {
+            imgSrc = require("./../../../../Assets/Images/events/Workshops.jpg");
     }
+}
 
     return (
         <>
@@ -22,7 +26,7 @@ const UpcomingEventContent = ({ name, date }) => {
         </>
     );
 };
-const UpcomingEvent = ({ link, EventName, EventDate }) => (
+const UpcomingEvent = ({ link, EventName, EventDate, EventImage }) => (
     <ScrollAnimation
         animateOnce={true}
         duration={1}
@@ -34,12 +38,12 @@ const UpcomingEvent = ({ link, EventName, EventDate }) => (
     >
         {link === undefined && (
             <div style={{ cursor: "default" }}>
-                <UpcomingEventContent name={EventName} date={EventDate} />
+                <UpcomingEventContent name={EventName} image={EventImage} date={EventDate} />
             </div>
         )}
         {link && (
             <a href={link} target="_blank" rel="noopener noreferrer">
-                <UpcomingEventContent name={EventName} date={EventDate} />
+                <UpcomingEventContent name={EventName} image={EventImage} date={EventDate} />
             </a>
         )}
     </ScrollAnimation>

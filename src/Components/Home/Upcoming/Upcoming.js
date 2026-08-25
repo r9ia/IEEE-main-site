@@ -52,6 +52,7 @@ const Upcoming = () => {
                     return (
                         <UpcomingEvent
                             EventName={eventItem.EventName}
+                            EventImage={eventItem.EventImage}
                             EventDate={eventItem.displayDate}
                             link={eventItem.link}
                         />
