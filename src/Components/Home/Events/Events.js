@@ -29,6 +29,7 @@ const Events = () => {
                         {allEvents.map((item, i) => (
                             <EventEvent
                                 EventName={item.EventName}
+                                EventImage={item.EventImage}
                                 EventDate={item.displayDate}
                                 link={item.link}
                             />
@@ -40,6 +41,7 @@ const Events = () => {
                     {allEvents.map((item, i) => (
                         <EventEvent
                             EventName={item.EventName}
+                            EventImage={item.EventImage}
                             EventDate={item.displayDate}
                             link={item.link}
                             spread={true}

@@ -5,6 +5,7 @@
 export const allEvents = [
     {
         EventName: "Hack The Student Life 2026",
+        EventImage: "hack-the-student-life-2026",
         displayDate: "March 13, 2026",
         date: "2026/03/13",
         link: "https://hackthestudentlife2026.devpost.com/",
@@ -12,6 +13,7 @@ export const allEvents = [
     },
     {
         EventName: "Assembly, ISAs + Assemblers Workshop",
+        EventImage: "assembly-isas-assemblers-workshop",
         displayDate: "March 8, 2026",
         date: "2026/03/08",
         link: "https://www.instagram.com/p/DWAzL8fDc3W/",
@@ -19,6 +21,7 @@ export const allEvents = [
     },
     {
         EventName: "Interview + Algorithms Workshop",
+        EventImage: "interview-algorithms-workshop",
         displayDate: "February 25, 2026",
         date: "2026/02/25",
         link: "https://www.instagram.com/p/DU__MY1iZcJ/",
@@ -26,6 +29,7 @@ export const allEvents = [
     },
     {
         EventName: "Physics-Informed Neural Networks (PINNs) in MATLAB",
+        EventImage: "physics-informed-neural-networks-pinns-in-matlab",
         displayDate: "February 25, 2026",
         date: "2026/02/25",
         link: "https://www.instagram.com/p/DU504YGkdhS/",
@@ -33,6 +37,7 @@ export const allEvents = [
     },
     {
         EventName: "Mock Interviews + C Workshop",
+        EventImage: "mock-interviews-c-workshop",
         displayDate: "February 21, 2026",
         date: "2026/02/21",
         link: "https://www.instagram.com/p/DUhFC_CiXfn/",
@@ -40,6 +45,7 @@ export const allEvents = [
     },
     {
         EventName: "MakeUofT 2026",
+        EventImage: "makeuoft-2026",
         displayDate: "February 14-15, 2026",
         date: "2026/02/14",
         link: "https://makeuoft-2026.devpost.com/",
@@ -47,6 +53,7 @@ export const allEvents = [
     },
     {
         EventName: "Altium Workshop",
+        EventImage: "altium-workshop",
         displayDate: "January 28, 2026",
         date: "2026/01/28",
         link: "https://www.instagram.com/p/DT3e4K0EjxJ/",
@@ -54,6 +61,7 @@ export const allEvents = [
     },
     {
         EventName: "Interview + Javascript Workshop",
+        EventImage: "interview-javascript-workshop",
         displayDate: "January 28, 2026",
         date: "2026/01/28",
         link: "https://www.instagram.com/p/DT1RaUTidrE/",
@@ -61,6 +69,7 @@ export const allEvents = [
     },
     {
         EventName: "ECE Labs Fundamentals Workshop",
+        EventImage: "ece-labs-fundamentals-workshop",
         displayDate: "January 14, 2026",
         date: "2026/01/14",
         link: "https://www.instagram.com/p/DTNv5SNkS5w/",
@@ -68,6 +77,7 @@ export const allEvents = [
     },
     {
         EventName: "Data Structures and Algorithms Workshop: Graphs and BFS/DFS",
+        EventImage: "data-structures-algorithms-workshop-graphs-bfs-dfs",
         displayDate: "November 26, 2025",
         date: "2025/11/26",
         link: "https://www.instagram.com/p/DRZ3TGjACwg/",
@@ -75,6 +85,7 @@ export const allEvents = [
     },
     {
         EventName: "MATLAB Onramp Workshop",
+        EventImage: "matlab-onramp-workshop",
         displayDate: "November 25, 2025",
         date: "2025/11/25",
         link: "https://www.instagram.com/p/DRQY9K1CY3t/",
@@ -82,6 +93,7 @@ export const allEvents = [
     },
     {
         EventName: "Resume Review Event",
+        EventImage: "resume-review-event-bay-area",
         displayDate: "November 19, 2025",
         date: "2025/11/19",
         link: "https://www.instagram.com/p/DRM-sCbkcAJ/?img_index=1",
@@ -89,6 +101,7 @@ export const allEvents = [
     },
     {
         EventName: "Data Structures and Algorithms Workshop: Linked Lists",
+        EventImage: "data-structures-algorithms-workshop-linked-lists",
         displayDate: "November 12, 2025",
         date: "2025/11/12",
         link: "https://www.instagram.com/p/DQ7yufdCRdH/",
@@ -96,13 +109,15 @@ export const allEvents = [
     },
     {
         EventName: "Arduino Workshop",
+        EventImage: "arduino-workshop",
         displayDate: "November 5, 2025",
         date: "2025/11/05",
         link: "https://www.instagram.com/p/DRA59BoiY4n/",
         highlightEvent: false,
     },
     {
-        EventName: "Data Structures and Algorithms Workshop: Binary Search + Two Pointers",
+        EventName: "Data Structures and Algorithms Workshop - Binary Search + Two Pointers",
+        EventImage: "data-structures-algorithms-workshop-binary-search-two-pointers",
         displayDate: "November 5, 2025",
         date: "2025/11/05",
         link: "https://www.instagram.com/p/DQhrPiXEjP5/",
@@ -110,6 +125,7 @@ export const allEvents = [
     },
     {
         EventName: "NewHacks 2025",
+        EventImage: "newhacks-2025",
         displayDate: "October 25-26, 2025",
         date: "2025/10/25",
         link: "https://newhacks-2025.devpost.com/",
@@ -117,6 +133,7 @@ export const allEvents = [
     },
     {
         EventName: "Resume Review Event",
+        EventImage: "resume-review-event",
         displayDate: "October 22, 2025",
         date: "2025/10/22",
         link: "https://www.instagram.com/p/DQA1etjEY3j/",
@@ -124,6 +141,7 @@ export const allEvents = [
     },
     {
         EventName: "Industry Panel",
+        EventImage: "industry-panel",
         displayDate: "October 16, 2025",
         date: "2025/10/16",
         link: "https://www.instagram.com/p/DPmSnXbiVYW/",
@@ -131,6 +149,7 @@ export const allEvents = [
     },
     {
         EventName: "Data Structures and Algorithms Workshop: Array + Hashing",
+        EventImage: "data-structures-algorithms-workshop-array-hashing",
         displayDate: "October 15, 2025",
         date: "2025/10/15",
         link: "https://www.instagram.com/p/DPuIdBviW1-/",
@@ -138,6 +157,7 @@ export const allEvents = [
     },
     {
         EventName: "Click not Clock",
+        EventImage: "click-not-clock",
         displayDate: "October 9, 2025",
         date: "2025/10/09",
         link: "https://www.instagram.com/p/DPfN-O4iRdk/?img_index=1",
@@ -145,12 +165,14 @@ export const allEvents = [
     },
     {
         EventName: "Hack The Student Life",
+        EventImage: "hack-the-student-life-nov-2024",
         displayDate: "November 29, 2024",
         date: "2024/11/29",
         highlightEvent: true,
     },
     {
         EventName: "NewHacks 2024",
+        EventImage: "newhacks-2024",
         displayDate: "October 26-27, 2024",
         date: "2024/10/26",
         link: "https://newhacks.ca/",
@@ -158,12 +180,14 @@ export const allEvents = [
     },
     {
         EventName: "Technical Interview Night",
+        EventImage: "technical-interview-night",
         displayDate: "October 3, 2024",
         date: "2024/10/03",
         highlightEvent: false,
     },
     {
         EventName: "Hack The Student Life",
+        EventImage: "hack-the-student-life-mar-2024",
         displayDate: "March 22, 2024",
         date: "2024/03/22",
         link: "https://hackstudentlife.ca/",
@@ -171,6 +195,7 @@ export const allEvents = [
     },
     {
         EventName: "MakeUofT 2024",
+        EventImage: "makeuoft-2024",
         displayDate: "February 17-18, 2024",
         date: "2024/02/17",
         link: "https://makeuoft.ca/",
@@ -178,6 +203,7 @@ export const allEvents = [
     },
     {
         EventName: "NewHacks 2023",
+        EventImage: "newhacks-2023",
         displayDate: "November 4-5, 2023",
         date: "2023/11/04",
         link: "https://newhacks-2023.devpost.com/",
@@ -185,6 +211,7 @@ export const allEvents = [
     },
     {
         EventName: "MakeUofT 2023",
+        EventImage: "makeuoft-2023",
         displayDate: "February 18-19, 2023",
         date: "2023/02/18",
         link: "https://makeuoft-2023.devpost.com/",
@@ -192,6 +219,7 @@ export const allEvents = [
     },
     {
         EventName: "NewHacks 2022",
+        EventImage: "newhacks-2022",
         displayDate: "November 5-6, 2022",
         date: "2022/11/05",
         link: "https://newhacks-2022.devpost.com/",
@@ -199,6 +227,7 @@ export const allEvents = [
     },
     {
         EventName: "Technical Interview Night",
+        EventImage: "technical-interview-night",
         displayDate: "October 5, 2022",
         date: "2022/10/05",
         link: "https://www.eventbrite.ca/e/417248019057",
@@ -207,6 +236,7 @@ export const allEvents = [
     {
         // waiting for new graphic with updated event date
         EventName: "React Workshop",
+        EventImage: "react-workshop",
         displayDate: "September 22, 2022",
         date: "2022/09/22",
         link: "https://www.eventbrite.ca/e/ieee-uoft-react-workshop-tickets-420908186717",
