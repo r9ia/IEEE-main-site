@@ -31,6 +31,7 @@ Add a new event with the following props:
 Prop | Meaning
 ------------- | -------------
 EventName | Name of the event that will be displayed on the site
+EventImage | the name of the image file that will be used for the event (without the file extension)
 displayDate | Date of the event that will be displayed on the site
 date | Use YYYY/MM/DD; used to calculate what day the event is so that the upcoming 3 events can appear on the "Upcoming Events" section. If the event spans more than one day, use the start date
 link | Link to event (either FB, Insta, Eventbrite, etc)
@@ -44,18 +45,12 @@ src
         └───events
 ```
 
+image name must be exact to EventImage without file extension
+
 Notes:
 
 1. Images must be **wider than they are tall**, ideally a square. It must be `.jpg`.
 2. Shrink images if they are too big. The height of the image should be ideally 360px (and not a pixel less).
-3. If EventName contains a character that can't be used in a jpg name (such as the ! in Hello, Con!), remove that problematic character(s) in EventName and the name of the image. Then add a condition in line 14 of `EventEvent.js`. See below.
-
-```javascript
-let EventNameChar = EventName;
-if (EventNameChar == "Hello, Con") {
-    EventNameChar = "Hello, Con!";
-}
-```
 
 ## Adding new sponsors
 
