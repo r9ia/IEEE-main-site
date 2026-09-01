@@ -234,6 +234,12 @@ export const allEvents = [
         highlightEvent: false,
     },
     {
+        EventName: "First Year Recruitment",
+        EventImage: "first-year-recruitment",
+        date: "2022/10/05",
+        highlightEvent: false,
+    },
+    {
         // waiting for new graphic with updated event date
         EventName: "React Workshop",
         EventImage: "react-workshop",
@@ -242,6 +248,7 @@ export const allEvents = [
         link: "https://www.eventbrite.ca/e/ieee-uoft-react-workshop-tickets-420908186717",
         highlightEvent: false,
     },
+
 ];
 
 export default allEvents;
