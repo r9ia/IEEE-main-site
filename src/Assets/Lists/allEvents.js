@@ -236,6 +236,7 @@ export const allEvents = [
     {
         EventName: "First Year Recruitment",
         EventImage: "first-year-recruitment",
+        displayDate: "October 5, 2022",
         date: "2022/10/05",
         highlightEvent: false,
     },
